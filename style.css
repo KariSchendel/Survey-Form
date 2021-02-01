@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(53, 53, 134, 0.8), rgba(90, 91, 145, 0.8)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    color: #fff;
+    background-attachment: fixed;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background: cover;
+    
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#survey-form {
+    max-width: 30%;
+    margin: 0 auto;
+    background-color: #2B2B49;
+    padding: 40px;
+    font-size: 15px;
+
+}
+
+#dropdown {
+    padding-top: 20px;
+}
+
+
+#dropdown, #submit, input[type=text], input[type=email], input[type=number] {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    color: #656B72;
+}
+
+#additonal-courses {
+    margin-bottom: 20px;
+}
+
+#suggestions {
+    width: 100%;
+    margin-top: 10px;
+    color: grey;
+}
+
+#submit {
+    background-color: #36AF65;
+    border: none;
+    color: white;
+}
